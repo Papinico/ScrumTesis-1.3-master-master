@@ -35,7 +35,7 @@
 
   &:focus,
   &:active {
-    outline-color: #F15412;
+    outline-color: #62D2A2;
   }
 
   &.no-padding-left {
@@ -77,7 +77,7 @@
 @include buttonBackground(success, $success);
 
 .btn-secondary {
-  color: #42526e;
+  color: #62D2A2;
   font-weight: 400;
   background: $secondary;
 
@@ -96,7 +96,7 @@
 .btn-empty {
   background: white;
   outline: none;
-  color: #42526e;
+  color: #62D2A2;
 
   &:focus,
   &:active {
@@ -105,7 +105,7 @@
 
   &:not(:disabled) {
     &:hover {
-      background: #ebecf0;
+      background: #62D2A2;
     }
     &:active {
       background: #d2e5fe;
@@ -113,7 +113,7 @@
     }
     &.is-active {
       background-color: rgb(222, 235, 255);
-      color: #42526e;
+      color: #62D2A2;
     }
   }
 }
@@ -123,7 +123,7 @@
 }
 
 .is-active {
-  color: #F15412;
+  color: #62D2A2;
   background-color: #d2e5fe;
 }
 

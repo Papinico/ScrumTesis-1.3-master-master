@@ -35,7 +35,7 @@ form {
     }
 
     &.is-active {
-      box-shadow: 0 0 0 4px #1255b9;
+      box-shadow: 0 0 0 4px #62D2A2;
       z-index: 1;
     }
   }
@@ -76,9 +76,10 @@ nz-divider {
 }
 
 .is-active {
+
   color: rgb(244, 245, 247) !important;
-  background-color: #253858;
+  background-color: #62D2A2;
   &:hover {
-    background-color: lighten(#253858, 10%);
+    background-color: lighten(#62D2A2, 10%);
   }
 }
