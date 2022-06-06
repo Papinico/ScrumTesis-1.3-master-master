@@ -23,7 +23,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #dbeafe;
+      background-color: #62D2A2;
     }
     img {
       display: inline-block;
@@ -47,7 +47,7 @@
 
     [nz-button]:hover {
       background-color: #dbeafe;
-      color: #F15412;
+      color: #62D2A2;
     }
 
     .avatar-container {
@@ -60,7 +60,7 @@
       transition: background-color 0.5s ease;
 
       &:hover {
-        background-color: #dbeafe;
+        background-color: #62D2A2;
       }
       nz-avatar:hover {
         cursor: pointer;
